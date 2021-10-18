@@ -10,27 +10,27 @@
 10. Question10: 3. The length variable is const variable but the scope is the function,so it can be accessed. And the variable store the length of the input prices which is 3.
 11. Question11: [ 50, 100, 150 ]. After change the discounted to const but we can change its value by internal function. length is a constant variable that store the length of the input prices and we don't need to change it. Even the const variable discountedPrice should can't be redeclared but because its scope is the loop every time it finish one loop the discountedPrice will be cleared so we are declaring a new variable. So everything should work, its output should be [100*0.5,200*0.5,300*0.5]=[ 50, 100, 150 ].
 12. Question12:
-    A.student.name 
-    B.student["grad year"]
-    C.student.greeting()
-    D.student["favorite reacher"].name
-    E.student.courseLoad[0]
+    A.student.name <br>
+    B.student["grad year"] <br>
+    C.student.greeting() <br>
+    D.student["favorite reacher"].name <br>
+    E.student.courseLoad[0] <br>
 13. Question13:
-    A.32
-    B.1
-    C.3
-    D.3null
-    E.4
-    F.0
-    G.3undefined
-    H.NaN
+    A.32 <br>
+    B.1  <br>
+    C.3 <br>
+    D.3null <br>
+    E.4 <br>
+    F.0 <br>
+    G.3undefined <br>
+    H.NaN <br>
 14.Question14:
-    A.true
-    B.false
-    C.true
-    D.false
-    E.false
-    F.true
+    A.true <br>
+    B.false <br>
+    C.true <br>
+    D.false <br>
+    E.false <br>
+    F.true <br>
 15.Question15：If the two values are not the same type, === directly returns false, but ==)will convert them to the same type, and then compare them by ===. <br>
 17. Question17: [2,4,6]. In the function modifyArray's loop eveytime it call the function callback with parameter array[i] which is pass array[i] to doSomething each loop, and doSomething return the value times 2. So the result is [1*2,2*2,3*2]= [2,4,6].<br>
 19. Question19:1432
