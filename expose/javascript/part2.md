@@ -32,5 +32,5 @@
     E.false <br>
     F.true <br>
 15. Question15：If the two values are not the same type, === directly returns false, but ==)will convert them to the same type, and then compare them by ===. <br>
-17. Question17: [2,4,6]. In the function modifyArray's loop eveytime it call the function callback with parameter array[i] which is pass array[i] to doSomething each loop, and doSomething return the value times 2. So the result is [1*2,2*2,3*2]= [2,4,6].<br>
+17. Question17: [2,4,6]. In the function modifyArray's loop eveytime it call the function callback with parameter array[i] which is pass array[i] to doSomething each loop, and doSomething return the value times 2. So the result will be the original values all times two which is [1*2,2*2,3*2]= [2,4,6].<br>
 19. Question19:1432
