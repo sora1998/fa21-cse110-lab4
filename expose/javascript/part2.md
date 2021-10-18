@@ -9,13 +9,13 @@
 9. Question9: ReferenceError: i is not defined. The variable i is let variable so it's scope is limited to the block which is the loop in this code. So it will be removed when the block over.
 10. Question10: 3. The length variable is const variable but the scope is the function,so it can be accessed. And the variable store the length of the input prices which is 3.
 11. Question11: [ 50, 100, 150 ]. After change the discounted to const but we can change its value by internal function. length is a constant variable that store the length of the input prices and we don't need to change it. Even the const variable discountedPrice should can't be redeclared but because its scope is the loop every time it finish one loop the discountedPrice will be cleared so we are declaring a new variable. So everything should work, its output should be [100*0.5,200*0.5,300*0.5]=[ 50, 100, 150 ].
-12. Question12:
+12. Question12:<br>
     A.student.name <br>
     B.student["grad year"] <br>
     C.student.greeting() <br>
     D.student["favorite reacher"].name <br>
     E.student.courseLoad[0] <br>
-13. Question13:
+13. Question13:<br>
     A.32 <br>
     B.1  <br>
     C.3 <br>
@@ -24,7 +24,7 @@
     F.0 <br>
     G.3undefined <br>
     H.NaN <br>
-14.Question14:
+14.Question14:<br>
     A.true <br>
     B.false <br>
     C.true <br>
